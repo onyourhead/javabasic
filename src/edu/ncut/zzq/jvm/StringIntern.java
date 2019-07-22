@@ -1,7 +1,5 @@
 package edu.ncut.zzq.jvm;
 
-import jvm.StackTest;
-
 /**
  * title: StringIntern
  * projectName： javabasic

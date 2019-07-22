@@ -1,4 +1,4 @@
-package jvm;
+package edu.ncut.zzq.jvm.jvm;
 
 /**
  * title: OOMTest

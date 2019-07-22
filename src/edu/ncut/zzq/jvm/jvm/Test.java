@@ -1,7 +1,5 @@
-package jvm;
+package edu.ncut.zzq.jvm.jvm;
 
-import java.lang.ref.SoftReference;
-import java.lang.ref.WeakReference;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
