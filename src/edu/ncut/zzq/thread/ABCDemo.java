@@ -32,7 +32,7 @@ public class ABCDemo {
         c.setNext(a);
 
         ExecutorService executor = Executors.newFixedThreadPool(3);// 通过线程池执行
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 5; i++) {
             executor.execute(a);
             executor.execute(b);
             executor.execute(c);

@@ -7,14 +7,10 @@ public class ThreadTest {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        Thread t = new Thread(){
-            public void run(){
-                attack();
-            }
-        };
+        Thread t = new Thread(ThreadTest::attack);
         System.out.println("current main thread is : " + Thread.currentThread().getName());
         t.start();
-        t.join();
+//        t.join();
         t.start();
     }
 }

@@ -1,5 +1,7 @@
 package edu.ncut.zzq.proxy;
 
+import java.util.Arrays;
+
 /**
  * title: ProxyTest
  * projectName： javabasic
@@ -15,6 +17,8 @@ public class ProxyTest {
         LiuDeHuaProxy proxy = new LiuDeHuaProxy();
         //获得代理对象
         Person p = proxy.getProxy();
+        System.out.println(p.getClass());
+        System.out.println(Arrays.toString(p.getClass().getInterfaces()));
         //调用代理对象的sing方法
         String retValue = p.sing("冰雨");
         System.out.println(retValue);
